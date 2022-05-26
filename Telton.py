@@ -1,4 +1,5 @@
 from telethon import TelegramClient, events
+from telethon.sessions import StringSession
 import asyncio
 from heroku3 import from_key
 import os
